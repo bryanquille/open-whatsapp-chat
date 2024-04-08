@@ -9,7 +9,7 @@ runBtn.addEventListener("click", (e) => {
     // Checking value
     const regex = /[a-zA-Z-]/g;
     if (regex.test(value) || value === "") {
-        alert("Please enter a phone number without letters, spaces, simbols, etc");
+        alert("Please enter a phone number without letters, spaces or simbols.");
         return;
     }
 
