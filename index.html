@@ -41,7 +41,10 @@
                 </div>
                 <form class="app">
                     <label for="user-input" class="label">Enter a phone number:</label>
-                    <input type="number" name="phone-number" id="user-input" class="user-input" value="" placeholder="Country code first">
+                    <div class="inputs">
+                        <select name="country-number-code" id="country-number-code" class="country-number-code"></select>
+                        <input type="number" name="phone-number" id="user-input" class="user-input" value="" placeholder="Phone number here">
+                    </div>
                     <button class="btn" id="run-btn">Open Chat</button>
                 </form>
             </main>

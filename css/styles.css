@@ -132,9 +132,17 @@ body {
 .label,
 .btn {
     font-size: 1.4rem;
+    text-align: center;
 }
 
-.user-input {
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-input,
+.country-number-code {
     padding: 5px;
     border-radius: 12px;
     font-size: 1.2rem;
@@ -187,7 +195,8 @@ body {
     }
     
     .fa-whatsapp {
-        font-size: 3rem;
+        margin-right: 1.5rem;
+        font-size: 4rem;
     }
 
     .info {
@@ -211,6 +220,10 @@ body {
     .label,
     .btn {
         font-size: 1.6rem;
+    }
+
+    .inputs {
+        display: block;
     }
     
     .user-input {
